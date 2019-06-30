@@ -8,14 +8,15 @@ class App extends Component {
 
   state = {
     score: 0,
+    highscore: 0
   };
 
   render() {
     return (
       <div>
-        <NavBar />
+        <NavBar score={this.state.score} highscore={this.state.highscore}/>
         <Header />
-        <Container />
+        <Container/>
       </div>
     )
   }

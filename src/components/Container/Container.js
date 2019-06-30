@@ -30,23 +30,16 @@ class Container extends Component {
     };
 
     increment = () => {
-        const score = this.state.score + 1;
+        const incScore = this.state.score + 1;
         this.setState({
-            score: score
+            score: incScore
         })
+        console.log(this.state.score);
         this.shuffleCards();
     };
 
-    handleClick = id => {
-        if (this.state.clickedArray.indexOf(id) === -1) {
-            this.increment();
-            this.setState({
-                clickedArray: [...this.state.clickedArray, id]
-            });
-            console.log(this.state.clickedArray);
-        } else {
-            alert("INCORRECT");
-        }
+    handleClick = event => {
+        this.increment();
     };
 
     render() {

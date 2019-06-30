@@ -1,8 +1,22 @@
 img {
     width: auto;
-    height: 250px;
+    height: 230px;
 }
 
-img:hover {
+.card:hover {
+    transform: scale(1.1)
+}
 
+.card > .img-container {
+    overflow: hidden;
+    text-align: center;
+}
+
+.card > .img-container > img {
+    width: 80%
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    margin-bottom: 30px;
 }
