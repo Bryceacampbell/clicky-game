@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Link",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/c/cf/Link_Wind_Waker_3.png/revision/latest?cb=20081015211408"
+    },
+    {
+        "id": 2,
+        "name": "Zelda",
+        "img_URL": "https://www.wiizelda.net/gallery/albums/userpics/10001/normal_princess-zelda.png"
+    },
+    {
+        "id": 3,
+        "name": "Tetra",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/1/13/Tetra.png/revision/latest?cb=20081011004446"
+    },
+    {
+        "id": 4,
+        "name": "Medli",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/d/d5/Medli.png/revision/latest?cb=20081011004538"
+    },
+    {
+        "id": 5,
+        "name": "Ankle",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/4/40/Ankle.png/revision/latest?cb=20081016221413"
+    },
+    {
+        "id": 6,
+        "name": "Maggies Father",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/5/5c/Maggie%27s_Father.png/revision/latest?cb=20081017025238"
+    },
+    {
+        "id": 7,
+        "name": "Cyclos",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/a/a4/Cyclos.png/revision/latest?cb=20081016215258"
+    },
+    {
+        "id": 8,
+        "name": "Doc Bandam",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/e/e4/Doc_Bandam.png/revision/latest/scale-to-width-down/269?cb=20081017195809"
+    },
+    {
+        "id": 9,
+        "name": "Fado",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/a/ae/Fado_Artwork_%28The_Wind_Waker%29.png/revision/latest/scale-to-width-down/348?cb=20081016192348"
+    },
+    {
+        "id": 10,
+        "name": "Prince Komali",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/c/ce/Prince_Komali_Normal.png/revision/latest?cb=20081017021231"
+    },
+    {
+        "id": 11,
+        "name": "Laruto",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/a/ab/Laruto.png/revision/latest/scale-to-width-down/348?cb=20081016195937"
+    },
+    {
+        "id": 12,
+        "name": "Quill",
+        "img_URL": "https://vignette.wikia.nocookie.net/zelda/images/7/7f/Quill.png/revision/latest/scale-to-width-down/252?cb=20081017201824"
+    }
+
+
+]
