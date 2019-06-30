@@ -7,7 +7,7 @@ import Container from "./components/Container/Container"
 class App extends Component {
 
   state = {
-
+    score: 0,
   };
 
   render() {
