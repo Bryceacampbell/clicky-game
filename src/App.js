@@ -11,12 +11,24 @@ class App extends Component {
     highscore: 0
   };
 
+  increment = flag => {
+
+    const newscore = this.state.score + 1;
+
+    this.setState({
+      score: flag ? 0 : newscore,
+      highscore: newscore > this.state.highscore && !flag ? newscore : this.state.highscore
+    })
+  };
+
+
   render() {
+    const { score, highscore } = this.state;
     return (
       <div>
-        <NavBar score={this.state.score} highscore={this.state.highscore}/>
+        <NavBar score={score} highscore={highscore}/>
         <Header />
-        <Container/>
+        <Container incrementFunc={this.increment}/>
       </div>
     )
   }

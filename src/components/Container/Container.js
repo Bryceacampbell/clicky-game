@@ -13,7 +13,7 @@ class Container extends Component {
         highscore: 0,
         clickedArray: []
     };
-
+n
     shuffleCards = () => {
         let shuffled = this.randomChars(images);
         this.setState({
@@ -29,17 +29,23 @@ class Container extends Component {
         return array;
     };
 
-    increment = () => {
-        const incScore = this.state.score + 1;
-        this.setState({
-            score: incScore
-        })
-        console.log(this.state.score);
-        this.shuffleCards();
-    };
+    handleClick = id => {
 
-    handleClick = event => {
-        this.increment();
+        const { clickedArray } = this.state;
+        
+        if (clickedArray.indexOf(id) === -1) {
+            clickedArray.push(id);
+            this.props.incrementFunc();
+
+        } else {
+
+            this.props.incrementFunc(true);
+            this.setState({
+                clickedArray: []
+            })
+        }
+        this.shuffleCards();
+
     };
 
     render() {
@@ -53,7 +59,7 @@ class Container extends Component {
                             name={card.name}
                             src={card.img_URL}
                             alt={card.name}
-                            handleClick={this.handleClick}
+                            handleClick={() => this.handleClick(card.id)}
                         />
                     ))}
                 </div>
